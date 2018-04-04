@@ -1,0 +1,46 @@
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\ApplicationInsights.config
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\roslyn\csc.exe
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\roslyn\System.Collections.Immutable.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\roslyn\vbc.exe
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\roslyn\VBCSCompiler.exe
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\roslyn\VBCSCompiler.exe.config
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Student Management.dll.config
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Student Management.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Student Management.pdb
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Microsoft.AI.Web.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Microsoft.AI.WindowsServer.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Microsoft.ApplicationInsights.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Microsoft.Web.Infrastructure.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\System.Web.Helpers.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\System.Web.Mvc.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\System.Web.Razor.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\System.Web.Webpages.Deployment.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\System.Web.Webpages.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\System.Web.Webpages.Razor.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Microsoft.AI.Web.xml
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Microsoft.AI.WindowsServer.xml
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Microsoft.ApplicationInsights.xml
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\System.Web.Razor.xml
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\System.Web.Webpages.xml
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\System.Web.Webpages.Deployment.xml
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\System.Web.Webpages.Razor.xml
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\System.Web.Helpers.xml
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\bin\System.Web.Mvc.xml
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\obj\Debug\Student Management.csprojResolveAssemblyReference.cache
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\obj\Debug\Student Management.dll
+c:\users\faraaz\documents\visual studio 2015\Projects\Student Management\Student Management\obj\Debug\Student Management.pdb

@@ -1,0 +1,58 @@
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\bin\Debug\ClassLibrary3.dll
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\bin\Debug\Dapper.dll
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\bin\Debug\System.Web.Optimization.dll
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\bin\Debug\WebGrease.dll
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\bin\Debug\ClassLibrary3.pdb
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\bin\Debug\Dapper.xml
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\bin\Debug\System.Web.Optimization.xml
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\obj\Debug\StudentManagement.DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Faraaz\documents\visual studio 2015\Projects\Student Management\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\Antlr3.Runtime.dll
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\ClassLibrary3.dll
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\Dapper.dll
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\itextsharp.dll
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\Newtonsoft.Json.dll
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\System.Web.Optimization.dll
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\WebGrease.dll
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\ClassLibrary3.pdb
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\Antlr3.Runtime.pdb
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\Dapper.xml
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\itextsharp.xml
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\Newtonsoft.Json.xml
+G:\Student Management\Student Management\ClassLibrary1\bin\Debug\System.Web.Optimization.xml
+G:\Student Management\Student Management\ClassLibrary1\obj\Debug\StudentManagement.DataAccessLayer.csprojResolveAssemblyReference.cache
+G:\Student Management\Student Management\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+G:\Student Management\Student Management\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\Antlr3.Runtime.dll
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\ClassLibrary3.dll
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\Dapper.dll
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\itextsharp.dll
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\System.Web.Optimization.dll
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\WebGrease.dll
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\ClassLibrary3.pdb
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\Dapper.xml
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\itextsharp.xml
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\bin\Debug\System.Web.Optimization.xml
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\obj\Debug\StudentManagement.DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\uasonera\Downloads\Student Management\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

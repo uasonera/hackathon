@@ -1,0 +1,48 @@
+﻿@model ClassLibrary2.ViewModels.LoginViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>DIMS</title>
+
+
+    <link rel="icon" type="image/png" href="~/AdminLTE/dist/img/DIMS-logo.png" /> 
+    <link rel="stylesheet" href="~/AdminLTE/newlogin/elastic-login-form/css/style.css">
+
+</head>
+<body style="background-image:url(../../AdminLTE/dist/img/dimslogin.png);background-repeat:no-repeat;background-size:cover">
+    <center><h1>DIMS Management</h1></center>
+    <!--Google Font - Work Sans-->
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <div class="container">
+        <div class="profile">
+            <button class="profile__avatar" id="toggleProfile">
+                <img src="~/AdminLTE/dist/img/DIMS-logo.png" alt="Avatar" />
+            </button>
+            @using (Html.BeginForm("loginDetails", "Login", FormMethod.Post))
+            {
+            <div class="profile__form">
+                <div class="profile__fields">
+                    <div class="field">
+                        <input type="text" id="fieldUser" class="input" name="Username" required />
+                        <label for="fieldUser" class="label">Username</label>
+                    </div>
+                    <div class="field">
+                        <input type="password" id="fieldPassword" class="input" name="Password" required/>
+                        <label for="fieldPassword" class="label">Password</label>
+                    </div>
+                    <div class="profile__footer">
+                        <button class="btn" type="submit">Login</button>
+                    </div>
+                </div>
+            </div>}
+        </div>
+    </div>
+
+    <script src="~/AdminLTE/newlogin/elastic-login-form/js/index.js"></script>
+</body>
+</html>

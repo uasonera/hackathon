@@ -1,0 +1,163 @@
+﻿@model ClassLibrary2.ViewModels.ODCListViewModel
+ 
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<head>
+    <link href="~/AdminLTE/plugins/icheck/css/minimal/_all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
+</head>
+
+@Html.AntiForgeryToken()
+
+@using (Html.BeginForm("AddODCDetails", "AddODCDetails", FormMethod.Post))
+{
+    <div class="box box-primary">
+        <div class="box-header with-border">
+            <h3 class="box-title">ODC Details</h3>
+        </div>
+        <div class="box-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="control-label">First Name</label>
+                        <input type="text" class="form-control" id="inputEmail3" name="NameOfCandidate" placeholder="First Name" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="control-label">Surname </label>
+                        <input type="text" class="form-control" id="inputEmail3" name="SurnameOfCandidate" placeholder="Surname" required>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="control-label">Student Code</label>
+                        <input type="text" class="form-control" id="inputEmail3" name="CodeOfCandidate" placeholder="Student Code" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="control-label">Place</label>
+                            <input type="text" class="form-control" id="inputEmail3" name="Place" placeholder="Place" required>
+                        </div>
+                    </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="control-label">Timing</label>
+                        <input type="text" class="form-control" id="inputEmail3" name="Timing" placeholder="Shift Timing" required>
+                    </div>
+                </div>
+                @*<div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="control-label">AmountPaid</label>
+                        <input type="text" class="form-control" id="inputEmail3" name="AmountPaid" placeholder="Amount Paid" required>
+                    </div>
+                </div>*@
+                @*<div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="control-label">Date of Payement</label>
+                        <input type="date" class="form-control" id="inputEmail3" name="DateOfPayement" placeholder="Date of Payement" required>
+                    </div>
+                </div>*@
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="control-label">Date of ODC</label>
+                        <input type="date" class="form-control" id="inputEmail3" name="DateOfODC" placeholder="Date of ODC" required>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputEmail3">Department</label>
+                        <select class="form-control" id="inputEmail3" name="Department" required>
+                            <option value="F&BService" id="inputEmail3" name="Department">F & B Service </option>
+                            <option value="F&BProduction" id="inputEmail3" name="Department">F & B Production</option>
+                            <option value="House Keeping" id="inputEmail3" name="Department">House Keeping</option>
+                            <option value="Front Office" id="inputEmail3" name="Department">Front Office</option>
+                        </select>
+                    </div>
+                </div>
+                @*<div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="control-label">Conveyence</label>
+                        <input type="text" class="form-control" id="inputEmail3" name="Conveyence" placeholder="Conveyence">
+                    </div>
+                </div>*@
+            </div>
+
+            <div class="box-footer">
+                <center>
+                    <div class="form-group ">
+                        <input type="submit" class="btn btn-primary">
+                        <input type="reset" class="btn btn-warning">
+                    </div>
+                </center>
+            </div>
+
+</div>
+</div>
+}
+
+
+
+<section class="content">
+    <div class="row">
+        <center>
+            <div class="col-xs-2">
+            </div>
+            <div class="col-xs-8">
+                <div class="box">
+                    <div class="box-header">
+                        <h3 class="box-title">Student Code List</h3>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <table id="Table" class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>
+                                       Student Name
+                                    </th>
+                                    <th>
+                                        Student Code
+                                    </th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.ListofODC)
+                                {
+
+                                    <tr>
+                                        <td width="80%">
+                                            @Html.DisplayFor(modelItem => item.NameOfCandidate) @Html.DisplayFor(modelItem => item.SurnameOfCandidate)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.CodeOfCandidate)
+                                        </td>
+
+                                    </tr>
+                                }
+                            </tbody>
+
+                        </table>
+
+
+                    </div>
+                </div>
+            </div>
+        </center>
+    </div>
+</section>
+<script src="//cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+<script>
+        $(document).ready(function () {
+            $('#Table').DataTable();
+        });
+</script>
