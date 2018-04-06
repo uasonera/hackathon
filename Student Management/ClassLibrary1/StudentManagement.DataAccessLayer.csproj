@@ -70,10 +70,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataAccessObjects\Login.cs" />
-    <Compile Include="DataAccessObjects\ODCDataAccess.cs" />
-    <Compile Include="DataAccessObjects\Payment.cs" />
-    <Compile Include="DataAccessObjects\StudentDataAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

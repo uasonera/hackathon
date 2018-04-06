@@ -956,13 +956,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\AddODCDetailsController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
-    <Compile Include="Controllers\ODCListController.cs" />
-    <Compile Include="Controllers\PaymentController.cs" />
-    <Compile Include="Controllers\PDFGeneratorODCLISTController.cs" />
-    <Compile Include="Controllers\StudentController.cs" />
-    <Compile Include="Controllers\StudentListController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1010,16 +1005,10 @@
     <Content Include="AdminLTE\plugins\ionicons\fonts\ionicons.eot" />
     <Content Include="AdminLTE\plugins\ionicons\fonts\ionicons.ttf" />
     <Content Include="AdminLTE\plugins\ionicons\fonts\ionicons.woff" />
-    <Content Include="Views\Student\CreateStudent.cshtml" />
-    <Content Include="Views\StudentList\Index.cshtml" />
-    <Content Include="Views\AddODCDetails\Index.cshtml" />
-    <Content Include="Views\ODCList\Index.cshtml" />
     <None Include="Properties\PublishProfiles\Dims.pubxml" />
     <None Include="Properties\PublishProfiles\DIMSManagement.pubxml" />
     <Content Include="Views\Login\Index.cshtml" />
-    <Content Include="Views\Payment\Index.cshtml" />
-    <Content Include="Views\Payment\PaymentDetails.cshtml" />
-    <Content Include="Views\Payment\PaymentDetailslist.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1029,8 +1018,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\ODC\" />
-    <Folder Include="Views\PDFGeneratorODCLIST\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary2\StudentManagement.BuissnessLayer.csproj">

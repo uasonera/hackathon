@@ -47,6 +47,5 @@ C:\Users\uasonera\Downloads\Student Management\ClassLibrary3\bin\Debug\Dapper.xm
 C:\Users\uasonera\Downloads\Student Management\ClassLibrary3\bin\Debug\itextsharp.xml
 C:\Users\uasonera\Downloads\Student Management\ClassLibrary3\bin\Debug\Newtonsoft.Json.xml
 C:\Users\uasonera\Downloads\Student Management\ClassLibrary3\bin\Debug\System.Web.Optimization.xml
-C:\Users\uasonera\Downloads\Student Management\ClassLibrary3\obj\Debug\StudentManagement.Entities.csprojResolveAssemblyReference.cache
 C:\Users\uasonera\Downloads\Student Management\ClassLibrary3\obj\Debug\ClassLibrary3.dll
 C:\Users\uasonera\Downloads\Student Management\ClassLibrary3\obj\Debug\ClassLibrary3.pdb

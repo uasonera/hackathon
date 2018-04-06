@@ -1,4 +1,4 @@
-﻿using ClassLibrary2.BuisnessObject;
+﻿//using ClassLibrary2.BuisnessObject;
 using ClassLibrary2.ViewModels;
 using ClassLibrary3;
 using System;
@@ -20,24 +20,24 @@ namespace Student_Management.Controllers
             return View();
         }
 
-        [HttpPost]
-        public ActionResult loginDetails(LoginViewModel loginViewModel)
-        {
-          var businessObject =new LoginBusinessObject();
-            List<LoginEntity> LoginDetails = businessObject.LoginBusiness(loginViewModel);
-            foreach(var item in LoginDetails)
-            {
-                if(item.Username==loginViewModel.Username && item.Password == loginViewModel.Password)
-                {
-                    return RedirectToAction("Index", "ODCList", null);
-                }
-                else
-                {
-                    return RedirectToAction("Index");
-                }
-            }
+        //[HttpPost]
+        //public ActionResult loginDetails(LoginViewModel loginViewModel)
+        //{
+        //  var businessObject =new LoginBusinessObject();
+        //    List<LoginEntity> LoginDetails = businessObject.LoginBusiness(loginViewModel);
+        //    foreach(var item in LoginDetails)
+        //    {
+        //        if(item.Username==loginViewModel.Username && item.Password == loginViewModel.Password)
+        //        {
+        //            return RedirectToAction("Index", "ODCList", null);
+        //        }
+        //        else
+        //        {
+        //            return RedirectToAction("Index");
+        //        }
+        //    }
 
-            return RedirectToAction("Index");
-        }
+        //    return RedirectToAction("Index");
+        //}
     }
 }

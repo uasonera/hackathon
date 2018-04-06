@@ -160,8 +160,6 @@ C:\Users\uasonera\Downloads\Student Management\Student Management\bin\System.Web
 C:\Users\uasonera\Downloads\Student Management\Student Management\bin\System.Web.Webpages.dll
 C:\Users\uasonera\Downloads\Student Management\Student Management\bin\System.Web.Webpages.Razor.dll
 C:\Users\uasonera\Downloads\Student Management\Student Management\bin\WebGrease.dll
-C:\Users\uasonera\Downloads\Student Management\Student Management\bin\ClassLibrary1.dll
-C:\Users\uasonera\Downloads\Student Management\Student Management\bin\Dapper.dll
 C:\Users\uasonera\Downloads\Student Management\Student Management\bin\ClassLibrary2.pdb
 C:\Users\uasonera\Downloads\Student Management\Student Management\bin\ClassLibrary3.pdb
 C:\Users\uasonera\Downloads\Student Management\Student Management\bin\Antlr3.Runtime.pdb
@@ -180,8 +178,6 @@ C:\Users\uasonera\Downloads\Student Management\Student Management\bin\System.Web
 C:\Users\uasonera\Downloads\Student Management\Student Management\bin\System.Web.Webpages.Razor.xml
 C:\Users\uasonera\Downloads\Student Management\Student Management\bin\System.Web.Helpers.xml
 C:\Users\uasonera\Downloads\Student Management\Student Management\bin\System.Web.Mvc.xml
-C:\Users\uasonera\Downloads\Student Management\Student Management\bin\ClassLibrary1.pdb
-C:\Users\uasonera\Downloads\Student Management\Student Management\bin\Dapper.xml
 C:\Users\uasonera\Downloads\Student Management\Student Management\obj\Debug\StudentManagement.csprojResolveAssemblyReference.cache
 C:\Users\uasonera\Downloads\Student Management\Student Management\obj\Debug\Student Management.dll
 C:\Users\uasonera\Downloads\Student Management\Student Management\obj\Debug\Student Management.pdb

@@ -70,17 +70,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BuisnessObject\LoginBusinessObject.cs" />
-    <Compile Include="BuisnessObject\ODC.cs" />
-    <Compile Include="BuisnessObject\PaymentBusinessobject.cs" />
-    <Compile Include="BuisnessObject\StudentBuissness.cs" />
-    <Compile Include="BuisnessObject\StudentListBusinessObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModels\AddODCDetailsViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
-    <Compile Include="ViewModels\ODCListViewModel.cs" />
-    <Compile Include="ViewModels\StudenListViewModel.cs" />
-    <Compile Include="ViewModels\StudentDetailsViewModelcs.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\StudentManagement.DataAccessLayer.csproj">

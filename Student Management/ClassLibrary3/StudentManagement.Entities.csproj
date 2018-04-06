@@ -70,13 +70,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\AcademicDetails.cs" />
-    <Compile Include="Entities\ListOfStudents.cs" />
-    <Compile Include="Entities\ODCDetails.cs" />
-    <Compile Include="Entities\Student.cs" />
-    <Compile Include="Entities\StudentContactDetails.cs" />
-    <Compile Include="Entities\StudentList.cs" />
-    <Compile Include="Entities\SubmittedDocuments.cs" />
     <Compile Include="LoginEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
