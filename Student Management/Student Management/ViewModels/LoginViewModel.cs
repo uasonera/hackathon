@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibrary2.ViewModels
+namespace StudentManagement.ViewModels
 {
    public class LoginViewModel
     {

@@ -13,5 +13,7 @@ namespace Student_Management.Controllers
         {
             return View();
         }
+
+
     }
 }

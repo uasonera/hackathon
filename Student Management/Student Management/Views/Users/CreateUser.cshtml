@@ -1,0 +1,146 @@
+﻿@model StudentManagement.ViewModels.UserViewModel
+
+@{
+    ViewBag.Title = "CreateUser";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>CreateUser</h2>
+<div class="box box-primary">
+    <div class="box-header with-border">
+        <h3 class="box-title">Personal Details</h3>
+    </div>
+    <div class="box-body">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inputEmail3" class="control-label">Surname</label>
+                    <input type="text" class="form-control" id="inputEmail3" name="Surname" placeholder="Surname" required>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inputEmail3" class="control-label">First Name</label>
+                    <input type="text" class="form-control" id="inputEmail3" name="FirstName" placeholder="First Name" required>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inputEmail3" class="control-label">Father's Name</label>
+                    <input type="text" class="form-control" id="inputEmail3" name="FatherName" placeholder="Middle Name" required>
+                </div>
+            </div>
+            @*<div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="control-label">Father Name</label>
+                        <input type="text" class="form-control" id="inputEmail3" name="FatherName" placeholder="Father Name" required>
+                    </div>
+                </div>*@
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inputEmail3">Marital Status</label>
+                    <select class="form-control" id="inputEmail3" name="MaritialStatus" required>
+                        <option value="Married" id="inputEmail3" name="MaritialStatus">Married</option>
+                        <option value="Unmarried" id="inputEmail3" name="MaritialStatus">Unmarried</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Date dd/mm/yyyy -->
+                <div class="form-group">
+                    <label for="inputEmail3" class="control-label">D.O.B</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <i class="fa fa-calendar"></i>
+                        </div>
+                        <input type="date" class="form-control" id="inputEmail3" name="DateOfBirth" placeholder="Date of Birth" required>
+                    </div>
+                    <!-- /.input group -->
+                </div>
+                <!-- /.form group -->
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inputEmail3" class="control-label">Age</label>
+                    <input type="text" class="form-control" id="inputEmail3" name="Age" placeholder="Age" required>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inputEmail3">Select Gender</label>
+                    <select class="form-control" id="inputEmail3" name="Gender" required>
+                        <option value="Male" name="Gender" id="inputEmail3">Male</option>
+                        <option value="Female" name="Gender" id="inputEmail3">Female</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inputEmail3" class="control-label">Nationality</label>
+                    <input type="text" class="form-control" id="inputEmail3" name="Nationality" placeholder="Nationality" required>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inputEmail3" class="control-label">Select Course Applied</label>
+                    <select class="form-control" id="inputEmail3" name="CourseApplied" required>
+                        <option value="Degree" name="CourseApplied" id="inputEmail3">Degree</option>
+                        <option value="Diploma" name="CourseApplied" id="inputEmail3">Diploma</option>
+                        <option value="Certificate" name="CourseApplied" id="inputEmail3">Certificate</option>
+                        <option value="Master Degree" name="CourseApplied" id="inputEmail3">Master Degree</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inputEmail3" class="control-label">Select Category</label>
+                    <select class="form-control" id="inputEmail3" name="Category" required>
+                        <option value="Open" name="Category" id="inputEmail3">Open</option>
+                        <option value="SC" name="Category" id="inputEmail3">SC</option>
+                        <option value="ST" name="Category" id="inputEmail3">ST</option>
+                        <option value="OBC" name="Category" id="inputEmail3">OBC</option>
+                        <option value="Other" name="Category" id="inputEmail3">Other</option>
+                        <option value="Minority" name="Category" id="inputEmail3">Minority</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inputEmail3" class="control-label">Passport no.</label>
+                    <input type="text" class="form-control" id="inputEmail3" name="PassportNo" placeholder="Passport number">
+                </div>
+            </div>
+            @*<div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputEmail3">Marital Status</label>
+                        <select class="form-control" id="inputEmail3" name="MaritialStatus" required>
+                            <option value="Married" id="inputEmail3" name="MaritialStatus">Married</option>
+                            <option value="Unmarried" id="inputEmail3" name="MaritialStatus">Unmarried</option>
+                        </select>
+                    </div>
+                </div>*@
+        </div>
+    </div>
+    <!-- /. Personal Details box-body -->
+    <div class="box-footer">
+    </div>
+</div>
+    <div class="box-footer">
+        <center>
+            <div class="form-group ">
+                <input type="submit" class="btn btn-primary">
+                <input type="reset" class="btn btn-warning">
+            </div>
+        </center>
+    </div>
+
